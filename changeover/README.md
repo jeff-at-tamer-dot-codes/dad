@@ -1,8 +1,8 @@
 Subject: Help me out here...
 
 ----------
-From: Jim Tamer
-Date: Tue, Feb 28, 2012 at 12:38 PM
+From: Jim Tamer  
+Date: Tue, Feb 28, 2012 at 12:38 PM  
 To: Jeff Tamer
 
 Hi Bud,
@@ -22,8 +22,8 @@ I really appreciate any help you can give me big guy.
 Love... Dad
 
 ----------
-From: Jeff Tamer
-Date: Tue, Feb 28, 2012 at 12:52 PM
+From: Jeff Tamer  
+Date: Tue, Feb 28, 2012 at 12:52 PM  
 To: Jim Tamer
 
 Very interesting problem. I've analyzed it enough to see that using a greedy algorithm will sometimes get the wrong answer. Not sure yet if it's NP-complete. When you say "about 35 unique attribute combinations to try and sequence", does that mean the total number of tasks is around 35 at max? Or can there be multiple different tasks with identical attribute combinations sometimes, e.g. {"A", "A B", "A"}?
@@ -31,15 +31,15 @@ Very interesting problem. I've analyzed it enough to see that using a greedy alg
 The goal here is to find the absolute minimum possible number of crossovers (and an ordering which produces that number), right?
 
 ----------
-From: Jim Tamer
-Date: Tue, Feb 28, 2012 at 12:55 PM
+From: Jim Tamer  
+Date: Tue, Feb 28, 2012 at 12:55 PM  
 To: Jeff Tamer
 
 Right, I need an ordering that produces the minimum number of changeovers.  The maximum number of tasks to sequence would be about 33 - 35 or so.
 
 ----------
-From: Jeff Tamer
-Date: Tue, Feb 28, 2012 at 1:19 PM
+From: Jeff Tamer  
+Date: Tue, Feb 28, 2012 at 1:19 PM  
 To: Jim Tamer
 
 Yeah, this problem is definitely not trivial :)
@@ -51,8 +51,8 @@ I can also give you a heuristic-based polynomial-time solution, which will run f
 I'd be curious for more background information on this problem. Usually in real life, sets of tasks can be executed in parallel :)
 
 ----------
-From: Jim Tamer
-Date: Tue, Feb 28, 2012 at 4:35 PM
+From: Jim Tamer  
+Date: Tue, Feb 28, 2012 at 4:35 PM  
 To: Jeff Tamer
 
 You're correct in assuming  that there's a real life problem involved.  We run mixer batches of specialized ingredients to make custom spices.  Some of these have allergens.  If you're running a batch that contains allergens the cleanup (changeover) takes a very long time relative to a normal changeover.  That's why we want to minimize the changeovers.  
@@ -64,8 +64,8 @@ Give me a call when you have a couple of minutes to chat over an approach.  No r
 <3
 
 ----------
-From: Jeff Tamer
-Date: Wed, Feb 29, 2012 at 1:18 AM
+From: Jeff Tamer  
+Date: Wed, Feb 29, 2012 at 1:18 AM  
 To: Jim Tamer
 
 OK, here's what I've got so far. I believe it always gets the right answer, and It seems to run in under 60 seconds even for very sadistic inputs. Give me a call tomorrow and let's talk -- I think there are still a few things I could do to make it faster.
@@ -91,15 +91,15 @@ Love,
 Jeff
 
 ----------
-From: Jim Tamer
-Date: Wed, Feb 29, 2012 at 5:10 AM
+From: Jim Tamer  
+Date: Wed, Feb 29, 2012 at 5:10 AM  
 To: Jeff Tamer
 
 Thanks so much.  I'll take a look when I get a chance.  Got meetings all day today so I probably won't get to it until tonight.  (hope I remember enough python to figure it out )  
 
 ----------
-From: Jeff Tamer
-Date: Thu, Mar 1, 2012 at 1:54 PM
+From: Jeff Tamer  
+Date: Thu, Mar 1, 2012 at 1:54 PM  
 To: Jim Tamer
 
 Hey Dad,
@@ -111,8 +111,8 @@ Love,
 Jeff
 
 ----------
-From: Jeff Tamer
-Date: Thu, Mar 1, 2012 at 10:55 PM
+From: Jeff Tamer  
+Date: Thu, Mar 1, 2012 at 10:55 PM  
 To: Jim Tamer
 
 OK, check it out -- it's in Java, runs lightning fast, and I even left some comments in there for you ;)
@@ -123,15 +123,15 @@ Love,
 Jeff
 
 ----------
-From: Jeff Tamer
-Date: Thu, Mar 1, 2012 at 11:21 PM
+From: Jeff Tamer  
+Date: Thu, Mar 1, 2012 at 11:21 PM  
 To: Jim Tamer
 
 Version 2: I just removed several lines of unnecessary code.
 
 ----------
-From: Jim Tamer
-Date: Fri, Mar 2, 2012 at 12:09 PM
+From: Jim Tamer  
+Date: Fri, Mar 2, 2012 at 12:09 PM  
 To: Jeff Tamer
 
 Great.  I'll check it out over the weekend. Hope you have a good one. <3
