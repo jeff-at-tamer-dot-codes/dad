@@ -70,6 +70,7 @@ To: Jim Tamer
 
 OK, here's what I've got so far. I believe it always gets the right answer, and It seems to run in under 60 seconds even for very sadistic inputs. Give me a call tomorrow and let's talk -- I think there are still a few things I could do to make it faster.
 
+```
 >>> for i in range(10): print findBestOrdering("A, A B, A B C, A B D, A B D F")
 
 ["A", "A B", "A B C", '(changeover)', "A B D", "A B D F"]
@@ -82,6 +83,7 @@ OK, here's what I've got so far. I believe it always gets the right answer, and 
 ["A", "A B", "A B D", "A B D F", '(changeover)', "A B C"]
 ["A B C", '(changeover)', "A", "A B", "A B D", "A B D F"]
 ["A", "A B D", "A B D F", '(changeover)', "A B", "A B C"]
+```
 
 Sorry for the messy code.
 
